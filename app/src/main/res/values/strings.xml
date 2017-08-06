@@ -2,4 +2,6 @@
     <string name="app_name">Simple Login Mvp</string>
     <string name="name">Name</string>
     <string name="password">Password</string>
+    <string name="Error">ERROR</string>
+    <string name="title_activity_home">Home</string>
 </resources>
