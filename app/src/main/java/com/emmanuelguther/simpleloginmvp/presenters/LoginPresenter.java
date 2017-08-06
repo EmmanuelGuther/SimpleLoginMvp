@@ -6,6 +6,6 @@ package com.emmanuelguther.simpleloginmvp.presenters;
 
 public interface LoginPresenter {
 
-    void validate(String user, String userPassword);
+    void validate(String username, String userPassword);
 
 }

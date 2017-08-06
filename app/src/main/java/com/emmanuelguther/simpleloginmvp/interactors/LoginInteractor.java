@@ -7,13 +7,13 @@ package com.emmanuelguther.simpleloginmvp.interactors;
 public interface LoginInteractor {
 
     interface OnLoginFinishedListener {
-        void onUsernameError();
+        void onUserNameError();
 
-        void onPasswordError();
+        void onUserPasswordError();
 
         void onSuccess();
     }
 
-    void login(String user, String userPassword, OnLoginFinishedListener listener);
+    void login(String userName, String userPassword, OnLoginFinishedListener listener);
 
 }

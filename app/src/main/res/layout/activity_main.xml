@@ -35,11 +35,12 @@
 
     <ImageButton
         android:id="@+id/imageButton"
-        android:layout_width="156dp"
-        android:layout_height="83dp"
-        android:src="@color/colorAccent"
-        tools:layout_editor_absoluteX="114dp"
-        tools:layout_editor_absoluteY="355dp" />
+        android:layout_width="154dp"
+        android:layout_height="40dp"
+        android:background="@color/colorAccent"
+        android:src="@drawable/ic_send"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="400dp" />
 
 
 </android.support.constraint.ConstraintLayout>
